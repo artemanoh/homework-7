@@ -1,0 +1,20 @@
+:root{
+--commandname: #212121;
+--commandtext:#757575;
+--feauturesmain:#212121;
+--Whatdo:#ffff;
+  --whatdobg: #2f303a;
+  --whathbt: white;
+  --whathbtbg: #2196f3;
+  --commandbg: #f5f4fa;
+  --headermail: #757575;
+  --headerphon: #2196f3;
+  --footerstrit: #ffff;
+  --footermail: rgba(255, 255, 255, 0.6);
+  --footerphone: rgba(255, 255, 255, 0.6);
+  --footerbg: #2f303a;
+  --swmain: #212121;
+  --swtext: #757575;
+}
+
+
