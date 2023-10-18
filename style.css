@@ -17,4 +17,71 @@
   --swtext: #757575;
 }
 
+.main-page{
+font-family: Roboto;
+font-weight: 500;
+
+}
+
+
+.logo-webstudio {
+  font-family: Raleway;
+  font-weight: 700;
+  
+}
+
+
+.header-list {
+font-weight: 500;
+
+}
+
+
+.hero-title {
+font-weight: 900;
+
+}
+
+
+.hero-button {
+  font-weight: 700;
+}
+
+
+.main-div {
+font-weight: 700;
+
+}
+
+
+.div-p {
+font-weight: 400;
+
+}
+
+
+.our-classes {
+font-weight: 700;
+
+}
+
+
+.section-bg {
+  font-weight: 700;
+}
+
+.bg-list{
+  font-weight: 500;
+}
+
+
+.list-p {
+  font-weight: 400;
+}
+
+
+.footer-webstudio {
+  font-weight: 400;
+}
+
 
