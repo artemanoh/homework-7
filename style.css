@@ -48,6 +48,11 @@ font-weight: 900;
 }
 
 
+.portfolio-button {
+  font-weight: 500;
+}
+
+
 .main-div {
 font-weight: 700;
 
@@ -85,3 +90,11 @@ font-weight: 700;
 }
 
 
+.article-item{
+  font-weight: 700;
+}
+
+
+.article-p{
+font-weight: 500;
+}
