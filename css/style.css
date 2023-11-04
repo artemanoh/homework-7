@@ -1,26 +1,25 @@
 :root{
---commandname: #212121;
 --commandtext:#757575;
 --feauturesmain:#212121;
 --Whatdo:#ffff;
-  --whatdobg: #2f303a;
+  --background: #2f303a;
   --whathbt: white;
   --whathbtbg: #2196f3;
   --commandbg: #f5f4fa;
   --headermail: #757575;
-  --headerphon: #2196f3;
-  --footerstrit: #ffff;
   --footermail: rgba(255, 255, 255, 0.6);
-  --footerphone: rgba(255, 255, 255, 0.6);
-  --footerbg: #2f303a;
-  --swmain: #212121;
-  --swtext: #757575;
+}
+
+.body{
+  font-family: Roboto;
+font-weight: 500;
+
 }
 
 .main-page{
-font-family: Roboto;
-font-weight: 500;
-
+  font-family: Roboto;
+  font-weight: 500;
+  
 }
 
 
@@ -99,4 +98,21 @@ font-weight: 700;
 
 .article-p{
 font-weight: 500;
+}
+
+.our-command{
+  font-weight: 700;
+}
+
+.footer-logo{
+  font-weight: 700;
+}
+
+.classes-list{
+
+
+}
+
+.classes-item{
+
 }
