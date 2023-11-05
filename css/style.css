@@ -27,7 +27,7 @@ line-height: 1.7;
 .logo-webstudio {
   font-family: Raleway;
   font-weight: 700;
-  
+  line-height: 0.9;
 }
 
 
@@ -46,6 +46,7 @@ line-height: 1.4;
 .hero-button {
   font-family: Raleway;
   font-weight: 700;
+  line-height: 1.9;
 }
 
 
@@ -69,7 +70,7 @@ font-weight: 400;
 
 .our-classes {
 font-weight: 700;
-
+line-height: 0.7;
 }
 
 
@@ -84,6 +85,7 @@ font-weight: 700;
 
 .list-p {
   font-weight: 400;
+  line-height: 1.5;
 }
 
 
@@ -94,20 +96,29 @@ font-weight: 700;
 
 .article-item{
   font-weight: 700;
+  line-height: 2;
 }
 
 
 .article-p{
 font-weight: 500;
+line-height: 1.9;
 }
 
 .our-command{
   font-weight: 700;
+  line-height: 0.7;
 }
 
 .footer-logo{
   font-weight: 700;
+  line-height: 0.9;
 }
+
+.list-name{
+line-height: 1.5;
+}
+
 
 .div-list{
 
@@ -154,6 +165,7 @@ font-weight: 500;
 }
 
 .button-item{
+  line-height: 1.6;
 
 }
 
