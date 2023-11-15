@@ -1,7 +1,7 @@
-:root{
---commandtext:#757575;
---feauturesmain:#212121;
---Whatdo:#fff;
+:root {
+  --commandtext: #757575;
+  --feauturesmain: #212121;
+  --Whatdo: #fff;
   --background: #2f303a;
   --whathbt: white;
   --whathbtbg: #2196f3;
@@ -11,34 +11,50 @@
 }
 
 
-.body{
+.body {
   font-family: Roboto;
-font-weight: 500;
-line-height: 1.5;
 
+}
+
+header {}
+
+.header-list {
+  font-weight: 500;
+
+}
+
+.header-list-item {}
+
+
+.header-link {
+  color: var(--feauturesmain);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0.6;
+  letter-spacing: 0.28px;
+}
+
+
+.header-link:hover {
+  color: var(--whathbtbg);
+}
+
+
+.headers-link {
+  color: var(--commandtext);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0.6;
+  letter-spacing: 0.28px;
+}
+
+
+.headers-link:hover {
+  color: var(--whathbtbg);
 }
 
 ul {
   list-style-type: none;
-}
-
-.main-page{
-  font-family: Roboto;
-  font-weight: 500;
-  
-}
-
-
-.logo-webstudio {
-  color: var(--feauturesmain);
-  font-family: 'Raleway';
-  font-size: 26px;
-  font-weight: 500;
-  letter-spacing: 0.78px;
-}
-
-.header-link:hover {
-  color: var(--whathbtbg);
 }
 
 a:link {
@@ -54,12 +70,7 @@ a:hover {
 }
 
 
-
-ul {
-  list-style-type: none;
-}
-
-.logos-webstudio{
+.first-color-webstudio {
   color: var(--whathbtbg);
   font-family: 'Raleway';
   font-size: 26px;
@@ -68,17 +79,20 @@ ul {
 }
 
 
-
-
-.header-list {
-font-weight: 500;
-
+.second-color-webstudio {
+  color: var(--feauturesmain);
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.78px;
 }
 
-.header-list-item{
+.main-page {}
+
+.hero {
+  background-color: var(--background);
 
 }
-
 
 .hero-title {
   width: 322px;
@@ -89,15 +103,115 @@ font-weight: 500;
   letter-spacing: 1.08px;
 }
 
+.hero-titles {
+  font-weight: 900;
+  color: var(--Whatdo);
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  width: 700px;
+}
+
 
 .hero-button {
-  background-color: var(--feauturesmain);
-    color: var(--Whatdo);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.88;
-    letter-spacing: 0.96px;
+  background-color: var(--whathbtbg);
+  color: var(--Whatdo);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.96px;
+}
+
+.main-section {
+  font-weight: 700;
+
+}
+
+
+.main-section-list {}
+
+
+.main-section-item {}
+
+.details-title {
+  width: 270px;
+  color: var(--feauturesmain);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.details-text {
+  width: 270px;
+  height: 72px;
+  flex-shrink: 0;
+  color: var(--commandtext);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.classes {
+  font-weight: 700;
+  line-height: 0.6;
+}
+
+.classes-title {
+  color: var(--feauturesmain);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  line-height: 1.33;
+}
+
+.classes-list {}
+
+.classes-item {}
+
+.command {
+  font-weight: 700;
+}
+
+.command-title {
+  color: var(--feauturesmain);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+.command-list {
+  font-weight: 500;
+}
+
+.command-item {}
+
+
+.list-name {
+  line-height: 1.3;
+}
+
+
+.list-text {
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+
+.section-button {}
+
+.button-list {}
+
+
+.button-item {
+  line-height: 1.6;
+
 }
 
 
@@ -111,77 +225,25 @@ font-weight: 500;
 }
 
 .portfolio-button:hover {
-  color: var(--feauturesmain);
+  color: var(--Whatdo);
   background-color: var(--whathbtbg);
 
+
 }
 
-.main-section {
+.hero-list {}
+
+.hero-list-item {}
+
+.hero-list-title {
+  color:var(--feauturesmain);
+font-size: 18px;
 font-weight: 700;
-
+line-height: 2;
+letter-spacing: 1.08px;
 }
 
-
-
-.classes {
-font-weight: 700;
-line-height: 0.6;
-}
-
-
-.command {
-  font-weight: 700;
-}
-
-.command-list{
-  font-weight: 500;
-}
-
-.command-item{
-
-}
-
-
-.list-text {
-  font-weight: 400;
-  line-height: 1.3;
-}
-
-
-.footer-webstudio {
-  font-weight: 400;
-  line-height: 1.7;
-}
-
-
-.hero-titles{
-  font-weight: 900;
-  color: var(--Whatdo);
-  text-align: center;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
-  width: 696px;
-  background-color: var(--commandtext);
-}
-
-.details-title{
-  width: 270px;
-  color: var(--feauturesmain);
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-}
-
-
-.classes{
-
-}
-
-
-.hero-text{
+.hero-list-text {
   width: 322px;
   color: var(--commandtext);
   font-size: 16px;
@@ -190,126 +252,60 @@ line-height: 0.6;
   letter-spacing: 0.48px;
 }
 
-.command-title{
-  color: var(--feauturesmain);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
+
+.footer-webstudio {
+  font-weight: 400;
+  background-color: var(--background);
+
 }
 
-.footer-logo{
+
+.footer-logo {
   font-weight: 700;
   line-height: 0.8;
 }
 
-.list-name{
-line-height: 1.3;
+
+.footer-list {}
+
+.footer-item {}
+
+
+.first-footer-color-logo {
+  color: var(--whathbtbg);
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.78px;
 }
 
 
-.header-link{
-  
-    color: var(--feauturesmain);
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-weight: 500;
-    letter-spacing: 0.78px;
-
-}
-
-.main-section-list{
-
-}
-
-.details-item{
-line-height: 1.5;
-}
-
-.footer-address{
-
+.second-footer-color-logo {
+  color: var(--Whatdo);
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.78px;
 }
 
 
-.classes-list{
-
-
-}
-
-.classes-item{
-
-}
-
-.classes-title{
-  color: var(--feauturesmain);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-  line-height: 1.33;
-}
-
-.section-hero{
-
-}
-
-.hero-list{
-
-}
-
-.hero-item{
-
-}
-
-
-.section-button{
-  
-}
-
-
-.button-list{
-
-}
-
-
-.button-item{
-  line-height: 1.6;
-
-}
-
-.header-link{
-
-}
-
-
-.hero{
-
-
-}
-
-.details-item{
-
-}
-
-.details-text{
-  width: 270px;
-  height: 72px;
-  flex-shrink: 0;
-  color: var(--commandtext);
+.footer-address {
+  color: var(--Whatdo);
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 1.71;
+  line-height: 1.7;
   letter-spacing: 0.42px;
 }
 
-.footer-list{
 
 
+.contact-link {
+  color: var(--commandtext);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
 }
-
-.footer-item{
-
-}
-
 
 
