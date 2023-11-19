@@ -16,7 +16,20 @@
 
 }
 
-header {}
+header {
+  padding-top: 15px;
+}
+
+
+.container{
+width: 1200px;
+margin: 0 auto;
+padding: 0 15px;
+outline: red solid 2px;
+}
+
+section{
+}
 
 .header-list {
   font-weight: 500;
@@ -91,7 +104,6 @@ a:hover {
 
 .hero {
   background-color: var(--background);
-
 }
 
 .hero-title {
@@ -261,7 +273,12 @@ letter-spacing: 1.08px;
 .footer-webstudio {
   font-weight: 400;
   background-color: var(--background);
+  padding-bottom: 15px;
+}
 
+section{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 
