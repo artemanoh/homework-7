@@ -17,7 +17,8 @@
 }
 
 header {
-  padding-top: 15px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 
@@ -104,6 +105,8 @@ a:hover {
 
 .hero {
   background-color: var(--background);
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .hero-title {
@@ -139,7 +142,8 @@ a:hover {
 
 .main-section {
   font-weight: 700;
-
+padding-top: 42px;
+padding-bottom: 100px;
 }
 
 
@@ -171,6 +175,8 @@ a:hover {
 .classes {
   font-weight: 700;
   line-height: 0.6;
+  padding-top: 100px;
+  padding-bottom: 94px;
 }
 
 .classes-title {
@@ -188,6 +194,9 @@ a:hover {
 
 .command {
   font-weight: 700;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #F5F4FA
 }
 
 .command-title {
@@ -221,7 +230,10 @@ a:hover {
 }
 
 
-.section-button {}
+.section-button {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 
 .button-list {}
 
@@ -248,7 +260,10 @@ a:hover {
 
 }
 
-.hero-list {}
+.hero-list {
+  padding-top:56px ;
+  padding-bottom: 94px; ;
+}
 
 .hero-list-item {}
 
@@ -273,7 +288,8 @@ letter-spacing: 1.08px;
 .footer-webstudio {
   font-weight: 400;
   background-color: var(--background);
-  padding-bottom: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 section{
