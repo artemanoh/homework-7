@@ -33,12 +33,42 @@ outline: red solid 2px;
 section{
 }
 
-.header-list {
-  font-weight: 500;
-
+.container-header {
+  display: flex;
+  align-items: center;
 }
 
-.header-list-item {}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-contact-list{
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+}
+
+.header-contact-list-item{
+  display: flex;
+  gap: 50px;
+  margin-left: 93px;
+}
+
+.header-contacts-list-item .header-contacts-link {
+  color: var(--text-color, #757575);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header-list-item {
+  display: flex;
+  gap: 53px;
+  margin-left: 93px;
+}
 
 
 .header-link {
@@ -54,6 +84,9 @@ section{
   color: var(--whathbtbg);
 }
 
+.header-contacts-link:hover {
+  color: var(--whathbtbg);
+}
 
 .headers-link {
   color: var(--commandtext);
@@ -104,6 +137,12 @@ a:hover {
 
 .main-page {}
 
+.container-hero{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
 .hero {
   background-color: var(--background);
   padding-top: 200px;
@@ -132,13 +171,16 @@ a:hover {
 
 
 .hero-button {
-  background-color: var(--whathbtbg);
-  color: var(--Whatdo);
+  color: var(--whatdo, #fff);
   text-align: center;
+  padding: 10px 32px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.88;
+  line-height: 1.87;
   letter-spacing: 0.96px;
+  border-radius: 4px;
+  background-color: var(--whathbtbg, #2196f3);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .main-section {
@@ -147,7 +189,15 @@ padding-top: 94px;
 }
 
 
-.main-section-list {}
+
+
+
+
+
+.main-section-list {  
+  display: flex;
+  max-width: 270px;
+  justify-content: space-between;}
 
 
 .main-section-item {}
@@ -188,7 +238,11 @@ padding-top: 94px;
   line-height: 1.33;
 }
 
-.classes-list {}
+.classes-list {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
 
 .classes-item {}
 
@@ -209,6 +263,9 @@ padding-top: 94px;
 
 .command-list {
   font-weight: 500;
+  display: flex;
+  gap: 30px;
+
 }
 
 .command-item {}
@@ -335,6 +392,8 @@ section{
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.42px;
+  margin-top: 20px;
+  display: block;
 }
 
 
@@ -345,4 +404,6 @@ section{
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
+  margin-top: 9px;
+  display: block;
 }
