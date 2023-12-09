@@ -68,6 +68,7 @@ section{
   display: flex;
   gap: 53px;
   margin-left: 93px;
+  line-height: 1.15;
 }
 
 
@@ -75,7 +76,7 @@ section{
   color: var(--feauturesmain);
   font-size: 14px;
   font-weight: 500;
-  line-height: 0.6;
+  line-height: 1.15;
   letter-spacing: 0.28px;
 }
 
@@ -156,6 +157,7 @@ flex-direction: column;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 1.08px;
+  
 }
 
 .hero-titles {
@@ -167,6 +169,7 @@ flex-direction: column;
   letter-spacing: 2.64px;
   text-transform: uppercase;
   width: 700px;
+  margin-bottom: 45px;
 }
 
 
@@ -197,7 +200,9 @@ padding-top: 94px;
 .main-section-list {  
   display: flex;
   max-width: 270px;
-  justify-content: space-between;}
+  justify-content: space-between;
+  gap: 30px;
+}
 
 
 .main-section-item {}
@@ -209,6 +214,7 @@ padding-top: 94px;
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .details-text {
@@ -225,8 +231,7 @@ padding-top: 94px;
 .classes {
   font-weight: 700;
   line-height: 0.6;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 47px 0 94px;
 }
 
 .classes-title {
@@ -236,11 +241,12 @@ padding-top: 94px;
   font-weight: 700;
   letter-spacing: 1.08px;
   line-height: 1.33;
+ margin-bottom: 50px;
 }
 
 .classes-list {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
   padding: 10px;
 }
 
@@ -259,6 +265,7 @@ padding-top: 94px;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
 }
 
 .command-list {
@@ -268,7 +275,14 @@ padding-top: 94px;
 
 }
 
-.command-item {}
+.command-item {
+  background-color: var(--Whatdo);
+padding-bottom: 30px;
+}
+
+.team-photo{
+  margin-bottom: 33px;
+}
 
 .list-name {
   font-size: 16px;
@@ -276,6 +290,9 @@ padding-top: 94px;
   font-weight: 500;
   letter-spacing: 0.48px;
   line-height: 1.3;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .list-text {
@@ -284,6 +301,8 @@ padding-top: 94px;
   font-size: 16px;
   letter-spacing: 0.48px;
   line-height: 1.3;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -298,6 +317,8 @@ padding-top: 94px;
 
 .button-item {
   line-height: 1.6;
+display: flex;
+align-items: center;
 
 }
 
@@ -309,6 +330,7 @@ padding-top: 94px;
   font-weight: 500;
   line-height: 1.63;
   letter-spacing: 0.48px;
+  
 }
 
 .portfolio-button:hover {
