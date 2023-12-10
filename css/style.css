@@ -247,7 +247,6 @@ padding-top: 94px;
 .classes-list {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
 }
 
 .classes-item {}
@@ -290,7 +289,7 @@ padding-bottom: 30px;
   font-weight: 500;
   letter-spacing: 0.48px;
   line-height: 1.3;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
   display: flex;
   justify-content: center;
 }
@@ -399,7 +398,6 @@ padding-bottom: 15px;
 
 section{
   padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 
