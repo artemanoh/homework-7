@@ -24,7 +24,8 @@ header {
 
 
 .container{
-width: 1200px;
+max-width: 1200px;
+width: 100%;
 margin: 0 auto;
 padding: 0 15px;
 outline: red solid 2px;
@@ -354,16 +355,18 @@ justify-content: center;
 .hero-list {
   display: flex;
   flex-wrap: wrap;
-  min-width: 1200px;
+  max-width: 1200px;
   gap: 27px;
+  width: 100%;
 }
 
 .hero-list-item { 
   flex-basis: calc((100% - 60px) / 3);
  }
 
-.portfolio-photo{
 
+ .portfolio-photo{
+width: 100%;
 }
 
 .container-article{
@@ -380,7 +383,7 @@ font-size: 18px;
 font-weight: 700;
 line-height: 2;
 letter-spacing: 1.08px;
-margin-bottom: 15px;
+margin-bottom: 4px;
 }
 
 .hero-list-text {
