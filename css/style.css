@@ -48,6 +48,7 @@ section{
   display: flex;
   gap: 50px;
   margin-left: auto;
+  
 }
 
 .header-contact-list-item{
@@ -311,11 +312,12 @@ padding-bottom: 30px;
 }
   
 
-.button-list {  display: flex;
+.button-list {  
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
-  margin-bottom: 56px;
+  gap: 8px;
+  margin-bottom: 50px;
 }
 
 
@@ -339,7 +341,7 @@ justify-content: center;
   list-style: none;
   border: none;
   border-radius: 4px;
-  
+  padding: 6px 22px;
 }
 
 .portfolio-button:hover {
@@ -352,11 +354,13 @@ justify-content: center;
 .hero-list {
   display: flex;
   flex-wrap: wrap;
-  
+  min-width: 1200px;
   gap: 27px;
 }
 
-.hero-list-item {}
+.hero-list-item { 
+  flex-basis: calc((100% - 60px) / 3);
+ }
 
 .portfolio-photo{
 
