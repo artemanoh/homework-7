@@ -24,8 +24,7 @@ header {
 
 
 .container{
-max-width: 1200px;
-width: 100%;
+width: 1200px;
 margin: 0 auto;
 padding: 0 15px;
 outline: red solid 2px;
@@ -357,7 +356,7 @@ justify-content: center;
   flex-wrap: wrap;
   max-width: 1200px;
   gap: 27px;
-  width: 100%;
+
 }
 
 .hero-list-item { 
