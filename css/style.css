@@ -208,6 +208,37 @@ padding-top: 94px;
 
 .main-section-item {}
 
+.main-section-item::before{
+content: "";
+display: block;
+background-color:var(--commandbg) ;
+background-image: url(../images/antenna.png);
+background-repeat: no-repeat;
+width: 270px;
+height: 120px;
+background-position: center;
+border-radius: 4px;
+background-size: 70px;
+
+}
+
+.main-section-item:first-child::before{
+  background-image: url(../images/antenna.png);
+}
+
+.main-section-item:nth-child(2)::before{
+  background-image: url(../images/clock.png);
+}
+
+.main-section-item:nth-child(3)::before{
+  background-image: url(../images/diagram.png);
+}
+
+.main-section-item:last-child::before{
+background-image: url(../images/astronaut.png);
+}
+
+
 .details-title {
   width: 270px;
   color: var(--feauturesmain);
