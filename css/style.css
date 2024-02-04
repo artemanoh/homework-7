@@ -191,6 +191,7 @@ flex-direction: column;
   border-radius: 4px;
   background-color: var(--whathbtbg, #2196f3);
   border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)
 }
 
 .main-section {
