@@ -311,7 +311,34 @@ background-image: url(../images/astronaut.png);
   justify-content: space-between;
 }
 
-.classes-item {}
+.classes-item {
+  position:relative;
+}
+
+
+.classes-position {
+display: flex;
+position: absolute;
+z-index: 2;
+justify-content: center;
+align-items: center;
+width: 370px;
+height: 70px;
+bottom: 0;
+background: rgba(47, 48, 58, 0.8);
+left: 0;
+
+}
+
+
+.classes-text {
+  color: var(--Whatdo);
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
 
 .command {
   font-weight: 700;
