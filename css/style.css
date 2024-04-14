@@ -925,9 +925,7 @@ resize: none;
   align-items: center;
   gap: 8px;
 }
-.modal-checkbox {
-display: none;
-}
+
 .modal-text {
   color: var(--feauturesmain);
   font-size: 14px;
