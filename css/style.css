@@ -63,6 +63,9 @@ section{
 
 .header-contacts-icon{
   fill: var(--commandtext);
+  transition-duration: 250ms;
+  transition-property: fill;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -93,6 +96,9 @@ section{
   line-height: 1.15;
   letter-spacing: 0.28px;
   position: relative;
+  transition-duration: 250ms;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -128,6 +134,9 @@ color: var(--whathbtbg);
   justify-content: center;
   align-items: center;
   gap: 10px;
+  transition-duration: 250ms;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .headers-link { 
@@ -222,7 +231,11 @@ flex-direction: column;
   border-radius: 4px;
   background-color:#2196f3;
   border: none;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition-duration: 250ms;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .hero-button:hover{
@@ -331,7 +344,7 @@ background-image: url(../images/astronaut.png);
 .classes-position {
 display: flex;
 position: absolute;
-z-index: 2;
+z-index: 1;
 justify-content: center;
 align-items: center;
 width: 370px;
@@ -339,7 +352,10 @@ height: 70px;
 bottom: 0;
 background: rgba(47, 48, 58, 0.8);
 left: 0;
-
+transition-duration: 250ms;
+transition-property: transform;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transform: translateY(+101%);
 }
 
 
@@ -349,6 +365,21 @@ font-size: 14px;
 font-weight: 700;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+}
+
+.classes-link{
+  overflow: hidden;
+  height: 294px;
+  position: relative;
+  display: block;
+}
+
+.classes-link:hover .classes-position {
+  transform: translate(0%);
+}
+
+.classes-link:focus .classes-position {
+  transform: translate(0%);
 }
 
 
@@ -375,6 +406,7 @@ text-transform: uppercase;
 
 }
 
+
 .command-item {
   background-color: var(--Whatdo);
 padding-bottom: 30px;
@@ -388,6 +420,9 @@ box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
 
 .command-icons{
   fill: var(--iconcolor);
+  transition-duration: 250ms;
+transition-property: fill;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -412,6 +447,9 @@ box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
 width: 44px;
 height: 44px;
 border-radius: 50%;
+transition-duration: 250ms;
+transition-property: background-color;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .command-icons-link:hover,
@@ -473,6 +511,9 @@ border-radius: 50%;
     padding: 16px 32px;
     border-radius: 4px;
   border: 1px solid #AFB1B8;
+  transition-duration: 250ms;
+transition-property: border;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   
@@ -480,6 +521,9 @@ border-radius: 50%;
   fill: var(--iconcolor);
   width: 106px;
   height: 60px;
+  transition-duration: 250ms;
+transition-property: fill;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   
@@ -529,6 +573,9 @@ justify-content: center;
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
+  transition-duration: 250ms;
+  transition-property: background-color,box-shadow,color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover,
@@ -580,6 +627,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 63px 24px;
+transition-duration: 250ms;
+transition-property: transform;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -730,6 +780,9 @@ section{
 .footer-icons-list-item {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
+transition-property: background-color;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icons-link{
@@ -738,6 +791,7 @@ section{
   align-items: center;
   width: 44px;
   height: 44px;
+
 }
 
 
@@ -817,11 +871,14 @@ margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
+  transition-duration: 250ms;
+transition-property: background-color;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-button:hover,
 .footer-form-button:focus {
-  background-color: #188CE8 ;
+  background-color: #1069b1 ;
 }
 .footer-form-icon {
   fill: #FFF;
@@ -1026,6 +1083,9 @@ resize: none;
   display: block;
   margin-top: 40px;
   border-color: transparent;
+  transition-duration: 250ms;
+transition-property:background-color;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover{
